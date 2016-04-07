@@ -1,8 +1,5 @@
 # scrobbled
-last.fm
-
-
-user.getrecenttracks
+last.fm  -  user.getrecenttracks
 
 
 recent.php
