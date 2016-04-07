@@ -1,9 +1,16 @@
-# scrobbled
-last.fm  -  user.getrecenttracks
+## last.fm scrobbled songs
 
+--------------------------------------------------
 
-recent.php
-- display last 25 songs scrobbled to last.fm
+user.getrecenttracks
 
-top.php
-- display top songs scrobbled to last.fm
+--------------------------------------------------
+
+replace occurrences of USERNAME and API_KEY with the appropriate values
+
+--------------------------------------------------
+
+- recent.php
+* displays the most recent songs scrobbled to last.fm
+- top.php
+* displays the top songs scrobbled to last.fm
