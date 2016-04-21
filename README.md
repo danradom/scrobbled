@@ -6,7 +6,8 @@ user.getrecenttracks
 
 --------------------------------------------------
 
-replace occurrences of USERNAME and API_KEY with the appropriate values
+- replace occurrences of USERNAME and API_KEY with the appropriate values
+- replace America/Denver with your appropriate timezone
 
 --------------------------------------------------
 
