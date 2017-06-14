@@ -2,7 +2,7 @@
 <body bgcolor="#669966">
 
 <center>
-<img src="images/solar-bus.jpg">
+<img src="images/image.jpg">
 </center>
 
 <?php
