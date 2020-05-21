@@ -1,10 +1,6 @@
 <html>
 <body bgcolor="#669966">
 
-<center>
-<img src="images/image.jpg">
-</center>
-
 <?php
 $url = "http://ws.audioscrobbler.com/2.0/?method=user.getinfo&user=USERNAME&api_key=API_KEY";
 $xml = simplexml_load_file($url);
