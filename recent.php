@@ -37,18 +37,16 @@ for ($i = 0; $i < 25; $i++) {
         $dt->setTimezone(new DateTimeZone('America/Denver'));
         $scrobbled = $dt->format('d M Y,  H:i');
 
+        echo "<td width=\"25%\"> $artist</td>
+        <td width=\"50%\"> $trackname</td>";
+
         if (! $epoch) {
-		 echo "<td width=\"25%\"> $artist</td>
-                <td width=\"50%\"> $trackname</td>
-                <td width=\"25%\"> now playing</td>
-		</tr>";
-	} else {
-                echo "<td width=\"25%\"> $artist</td>
-                <td width=\"50%\"> $trackname</td>
-                <td width=\"25%\"> $scrobbled</td>
-                </tr>";
-	}
-}
+            echo "<td width=\"25%\"> now playing</td>";
+        } else {
+            echo "<td width=\"25%\"> $scrobbled</td>";
+        }
+
+        echo "</tr>";
 }
 
 echo "</table>";
