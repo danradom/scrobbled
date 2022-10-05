@@ -35,7 +35,8 @@ for ($i = 0; $i < 25; $i++) {
 
         $dt = new DateTime("@$epoch");
         $dt->setTimezone(new DateTimeZone('America/Denver'));
-        $scrobbled = $dt->format('M d Y &\nb\sp H:i');
+        // $scrobbled = $dt->format('M d Y &\nb\sp H:i');
+        $scrobbled = $dt->format('M d Y \&\n\b\s\p H:i');
 
         echo "<td width=\"25%\"> $artist</td>
         <td width=\"50%\"> $trackname</td>";
